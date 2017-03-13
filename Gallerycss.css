@@ -1,0 +1,22 @@
+/*to form grid in the same line, use the property float*/
+img{
+	/*use percentage for the width*/
+	/*the percentage is relative to the parent in this case the body*/
+	width: 30%;
+	/*float will take things from flow of its documents*/
+	/*float take off the space between the images*/
+	float: left;
+	/*10/6 for the margin to take even space*/
+	margin: 1.66%
+}
+
+p{
+	font-family: 'Raleway', sans-serif;
+	margin-left: 1.66%;
+	font-size:23px;
+	text-transform: uppercase;
+	border-bottom: 3px solid #f1f1f1;
+	width: 30%;
+	padding-bottom: 20px;
+
+}
